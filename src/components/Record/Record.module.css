@@ -1,0 +1,6 @@
+.row {
+    width: 250px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+}

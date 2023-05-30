@@ -1,0 +1,41 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.row div:first-child {
+    flex-basis: 35%;
+    position: relative;
+    animation: showLeft 3s;
+}
+
+.row div:last-child {
+    flex-basis: 60%;
+    position: relative;
+    animation: showRight 3s;
+}
+
+@keyframes showLeft {
+
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
+
+}
+
+@keyframes showRight {
+
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: 0;
+    }
+
+}

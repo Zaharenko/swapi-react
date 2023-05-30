@@ -1,0 +1,27 @@
+.header {
+    padding-block: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header * {
+    text-decoration: none;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title a{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo{
+   width: 75px; 
+}
